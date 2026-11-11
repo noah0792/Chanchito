@@ -1,21 +1,17 @@
 {
+  "name": "Viáticos y extras",
+  "short_name": "Viáticos",
+  "description": "Control de viáticos por cortes y horas extras, con consolidado a pagar.",
+  "lang": "es",
   "id": "./",
-  "name": "Finanzas NI",
-  "short_name": "Finanzas NI",
-  "description": "Control de gastos e ingresos en córdobas y dólares. Privado y disponible sin conexión.",
-  "lang": "es-NI",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#070c18",
-  "theme_color": "#070c18",
+  "background_color": "#F2F2F7",
+  "theme_color": "#F2F2F7",
   "icons": [
-    {
-      "src": "./icon.png",
-      "sizes": "180x180",
-      "type": "image/png",
-      "purpose": "any"
-    }
+    { "src": "icon.png", "sizes": "192x192 512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
   ]
 }
